@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "manager-submission-client-side-solution",
+    "id": "e98fd0b6-4cdd-4c0c-a457-fdcdcb0c4a4f",
+    "version": "1.0.0.3",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/manager-submission.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "document-submission-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentSubmission/DocumentSubmissionWebPart.js",
+          "manifest": "./src/webparts/documentSubmission/DocumentSubmissionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DocumentSubmissionWebPartStrings": "lib/webparts/documentSubmission/loc/{locale}.js"
+  }
+}
