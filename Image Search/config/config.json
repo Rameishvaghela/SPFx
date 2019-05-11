@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "search-image-library-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/searchImageLibrary/SearchImageLibraryWebPart.js",
+          "manifest": "./src/webparts/searchImageLibrary/SearchImageLibraryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SearchImageLibraryWebPartStrings": "lib/webparts/searchImageLibrary/loc/{locale}.js"
+  }
+}
