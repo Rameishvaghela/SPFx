@@ -2,17 +2,19 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "search-image-library-web-part": {
+    "image-library-search-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/searchImageLibrary/SearchImageLibraryWebPart.js",
-          "manifest": "./src/webparts/searchImageLibrary/SearchImageLibraryWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/imageLibrarySearch/ImageLibrarySearchWebPart.js",
+          "manifest": "./src/webparts/imageLibrarySearch/ImageLibrarySearchWebPart.manifest.json"
         }
       ]
     }
   },
-  "externals": {},
+  "externals": {
+    "jquery": "https://code.jquery.com/jquery-3.1.0.min.js"
+  },
   "localizedResources": {
-    "SearchImageLibraryWebPartStrings": "lib/webparts/searchImageLibrary/loc/{locale}.js"
+    "ImageLibrarySearchWebPartStrings": "lib/webparts/imageLibrarySearch/loc/{locale}.js"
   }
 }

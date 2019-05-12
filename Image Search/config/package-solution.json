@@ -1,14 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "search-image-library-client-side-solution",
-    "id": "c8f390ba-8044-431f-8c4f-f6569b0340f0",
-    "version": "1.0.0.0",
+    "name": "Image Search V1",
+    "id": "52dd7d77-fb0a-4ac9-a5bf-007d586c4bd8",
+    "version": "2.0.2.1",
     "includeClientSideAssets": true,
-    "skipFeatureDeployment": true,
-    "isDomainIsolated": true
+    "skipFeatureDeployment": false
   },
   "paths": {
-    "zippedPackage": "solution/search-image-library.sppkg"
+    "zippedPackage": "solution/image-search-v1.sppkg"
   }
 }

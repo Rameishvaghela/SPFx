@@ -1,4 +1,4 @@
-## search-image-library
+## image-search
 
 This is where you include your WebPart documentation.
 
